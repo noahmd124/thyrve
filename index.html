@@ -318,6 +318,33 @@
 }
 
 
+	  .logo-carousel {
+  overflow: hidden;
+  background: #fff;
+  padding: 20px 0;
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: scrollLogos 40s linear infinite;
+}
+
+.carousel-track img {
+  height: 60px;
+  margin: 0 30px;
+  object-fit: contain;
+}
+
+@keyframes scrollLogos {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 	  
 
   }
